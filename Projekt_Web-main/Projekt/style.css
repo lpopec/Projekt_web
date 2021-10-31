@@ -1,0 +1,37 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: lightgrey;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: white;
+}
+.active {
+    background-color: white;
+}
+.banner {
+	background-image: url("images/banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
